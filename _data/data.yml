@@ -4,262 +4,248 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Jon Gutiérrez Zaballa
+    tagline: Investigador Predoctoral
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: j.gutierrez@ehu.eus
+    timezone: Europa/Madrid
+    linkedin: jon-gutiérrez-zaballa-a471671a5
+    github: jonGuti13
+    gitlab: jonGutierrez
+    website: ekoizpen-zientifikoa.ehu.eus/investigadores/130849/detalle
 
     languages:
-      title: Languages
+      title: Idiomas
       info:
-        - idiom: English
-          level: Native
+        - idiom: Inglés
+          level: Profesional
 
-        - idiom: French
-          level: Professional
+        - idiom: Español
+          level: Nativo
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Euskera
+          level: Nativo
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
 
 career-profile:
-    title: Career Profile
+    title: Perfil Profesional
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Obtuvo el Doble Grado en Física e Ingeniería Electrónica por la
+      Universidad del País Vasco (UPV - EHU) en el año 2019 y el Máster en
+      Sistemas Electrónicos Avanzados por la misma universidad en el año 2021.
+      Actualmente está trabajando como Investigador Predoctoral en el programa
+      de Ingeniería Física dentro del Departamento de Tecnología Electrónica de
+      la propia Universidad del País Vasco (UPV - EHU). Sus intereses se ubican
+      en el ámbito del procesamiento de imagen, la inteligencia computacional
+      (minería de datos, redes neuronales artificiales, redes convolucionales)
+      y el codiseño software-hardware embebido en PSoCs para sistemas avanzados
+      de ayuda a la conducción.
+
 education:
-    title: Education
+    title: Educación
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Investigador predoctoral en Ingeniería Física
+        university: Universidad del País Vasco (UPV - EHU)
+        time: 2021 - Actualidad
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          "Procesamiento de imágen hiperespectral con aplicación a los sistemas
+          de conducción autónoma y semiautónoma" El proyecto de tesis plantea
+          la investigación de la utilización de sensores espectrométricos para
+          acelerar y robustecer los algoritmos de detección y clasificación de
+          diferentes objetos en carretera. Por un lado, se quiere estudiar 
+          hasta qué punto el disponer de información espectral más rica en las
+          imágenes proporcionadas por las cámaras hiperespectrales de tipo
+          snapshot permitiría mejorar la robustez de estos sistemas. Por otro,
+          se espera que una rápida primera segmentación de las imágenes basada
+          en la información espectral y apoyada por técnicas de machine learning
+          (ML) permita simplificar drásticamente la compleja secuencia de
+          procesamiento que requiere esta detección de objetos. De verificarse,
+          esta técnica debería permitir el desarrollo de procesadores más
+          compactos y eficientes (SoC o Sistemas en un solo chip) para la
+          detección en tiempo real de objetos en carretera para ADAS/ADS.
+
+      - degree: Máster en Sistemas Electrónicos Avanzados
+        university: Universidad del País Vasco (UPV - EHU)
+        time: 2019 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          El objetivo principal del Máster en Sistemas Electrónicos Avanzados
+          es dotar al alumnado de las capacidades necesarias para la
+          integración de los dispositivos electrónicos, los computadores y las
+          tecnologías de comunicación en la investigación y el desarrollo de
+          sistemas electrónicos innovadores con múltiples aplicaciones:
+          comunicaciones, control avanzado, procesamiento de señal,
+          adquisición de datos y sistemas de medida, visión embebida,
+          inteligencia computacional, etc. El Trabajo de Fin de Máster ha
+          sido el siguiente:
+            - "Estudio sobre la aplicabilidad de redes profundas a la
+              segmentación en chip de imagen multiespectral con aplicación a 
+              los sistemas de conducción autónoma" Se investiga qué pueden
+              aportar las redes completamente convolucionales, en
+              contraposición a las técnicas basadas únicamente en información
+              espectral, a la segmentación de imagen hiperespectral para
+              aplicaciones de sistemas avanzados de ayuda la conducción.
+              Más concretamente, se trabaja con una U-Net que se entrena
+              con una base de datos débilmente etiquetada, es decir, que no
+              contiene todos los píxeles etiquetados. Además, dado que las
+              imágenes se obtienen mediante una cámara de tipo snapshot,
+              se estudia, en particular, el preprocesamiento de estas
+              imágenes para generar cubos hiperespectrales.
+      - degree: Doble Grado en Física e Ingeniería Electrónica
+        university: Universidad del País Vasco (UPV - EHU)
+        time: 2014 - 2019
+        details: |
+          El Doble Grado en Física y en Ingeniería Electrónica forma al alumnado
+          como profesional de la Ingeniería con un fuerte componente científico
+          y como profesional de la Física con un gran componente tecnológico.
+          Dota de la habilidad para concebir, diseñar y producir equipos y
+          sistemas electrónicos, usar técnicas matemáticas y colaborar con
+          profesionales de tecnologías afines. Asimismo, permite adquirir
+          nuevos conocimientos y aplicar tecnologías emergentes en el ámbito
+          de la Electrónica y de la Física. Los Trabajos de Fin de Grado han
+          versado sobre los siguientes aspectos:
+          - Ingeniería Electrónica: "Implementación sobre FPGA de un sistema
+          neuro-fuzzy para caracterizar estilos de conducción". Se modelizan
+          mediante técnicas de machine learning los estilos de varios
+          conductores con el fin de personalizar su respuesta al control de
+          crucero adaptativo en condiciones de seguimiento. Posteriormente se
+          realiza la implementación de alta velocidad del modelo en una FPGA.
+          - Física: "Tecnología fotónica avanzada en el automóvil: fotometría y
+          óptica geométrica para la detección de gotas de lluvia en el
+          parabrisas". Se realiza un estado del arte de las aplicaciones
+          actuales de la tecnología fotónica en los distintos ADAS en el
+          automóvil. Después se profundiza en RIGSEC: un algoritmo de validación
+          de gotas de lluvia en un parabrisas basándose en las propiedades
+          ópticas y fotométricas de las mismas. Para ello, se estudian los
+          fundamentos y aspectos avanzados del procesado digital de imágenes
+          aplicándolos a dicho algoritmo.
 
 experiences:
-    title: Experiences
+    title: Experiencias
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Colaborador en Grupo de Investigación (Beca Ikasiker)
+        time: 2018 - 2019
+        company: Universidad del País Vasco (UPV - EHU)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          La colaboración estuvo basada en el análisis de la utilidad de aplicar
+          diferentes técnicas de aprendizaje máquina en el desarrollo de ADAS
+          y la idoneidad de las mismas para el diseño de sistemas digitales de
+          alta velocidad particularizando el Control de Crucero Adaptativo.
+          La colaboración permitió formar parte del artículo "An FPGA-Based
+          Neuro-Fuzzy Sensor for Personalized Driving Assistance".
+      - role: Personal Investigador Contratado
+        time: 2020 - 2021
+        company: Universidad del País Vasco (UPV - EHU)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Las labores desempeñadas se engloban dentro de la medida, el análisis
+          y la interpretación de datos relacionados con el confort en el
+          automóvil dentro del proyecto "Preparación Tecnológica para la
+          Automatización Multivehicular para el sector Industrial (AUTOLIB)".
+          La colaboración ha concluido con la publicación del artículo "Analysis
+          of the Motion Sickness and the Lack of Comfort in Car Passengers".
+      - role: Profesor de prácticas de laboratorio
+        time: 2023 - 2024
+        company: Universidad del País Vasco (UPV - EHU)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          En los cursos académicos 2022/2023 y 2023/2024 impartición de las
+          prácticas de laboratorio de la asignatura de 3er curso llamada
+          Sistemas Electrónicos Digitales perteneciente al Grado en Ingeniería
+          Electrónica Industrial y Automática junto al profesor Pablo Fernández
+          Rodríguez.
 
 certifications:
-      title: Certifications
+      title: Certificados
       list:
-        - name: CV Builder
+        - name: Especialización en Machine Learning
           start: 2020
           end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+          organization: Grupo de Análisis de Datos y Ciberseguridad
+            (Departamento de Electrónica e Informática), Mondragon Unibertsitatea
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            El curso incluye aspectos tales como el preprocesamiento de datos,
+            el aprendizaje no supervisado, semi-supervisado y supervisado y las
+            técnicas para la selección y validación de modelo.
 
 projects:
-    title: Projects
+    title: Proyectos
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Este es el listado de proyectos en los que he participado a través de
+      la Universidad del País Vasco (UPV-EHU):
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: "Preparación Tecnológica para la Automatización Multivehicular para el sector Industrial (AUTOLIB)"
+        tagline: Elkartek KK-2019/00035
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: "Sistema de Reconocimiento de Imágenes Multiespectrales para el Análisis en Tiempo Real de Escenarios de Tráfico"
+        tagline: Minecor PID2020‐115375RB‐I00
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: "Grupo de Diseño en Electrónica Digital, GDED"
+        tagline: Grupos de Investigación UPV-EHU
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: "Silicon Burmuin: Investigación Multidisciplinar en Tecnologías Neuromórficas Disruptivas"
+        tagline: Elkartek KK-2023/00090
 
 publications:
-    title: Publications
+    title: Publicaciones
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Este es el listado de publicaciones fruto de la participación en los
+      proyectos incluidos en el apartado anterior:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "An FPGA-Based Neuro-Fuzzy Sensor for Personalized Driving Assistance"
+        link: https://www.mdpi.com/1424-8220/19/18/4011
+        authors: Mata-Carballeira, O., Gutiérrez-Zaballa, J., del Campo, I., Martínez, V.
+        conference: Sensors (MDPI), 2019
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Analysis of the Motion Sickness and the Lack of Comfort in Car Passengers"
+        link: https://www.mdpi.com/2076-3417/12/8/3717
+        authors: Asua, E., Gutiérrez-Zaballa, J., Mata-Carballeira, O., Ruiz, J.A., del Campo, I.
+        conference: Applied Sciences (MDPI), 2022
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "On-chip Hyperspectral Image Segmentation with Fully Convolutional Networks for Scene Understanding in Autonomous Driving"
+        link: https://www.sciencedirect.com/science/article/pii/S1383762123000577
+        authors: Gutiérrez-Zaballa, J., Basterretxea, K., Echanobe, J., Martínez, V., Martinez-Corral, U., Mata-Carballeira, O., del Campo, I.
+        conference: Journal of Systems Architecture (Elsevier), 2023
+
+      - title: "HSI-Drive: A Dataset for the Research of Hyperspectral Image Processing Applied to Autonomous Driving Systems"
+        link: https://ieeexplore.ieee.org/document/9575298
+        authors: Basterretxea, K., Echanobe, J., Martínez, V., Gutiérrez-Zaballa, J., del Campo, I.
+        conference: IEEE Intelligent Vehicles Symposium (IEEE Intelligent Transportation Systems Society), 2021
+
+      - title: "Exploring Fully Convolutional Networks for the Segmentation of Hyperspectral Imaging Applied to Advanced Driver Assistance Systems"
+        link: https://link.springer.com/chapter/10.1007/978-3-031-12748-9_11
+        authors: Gutiérrez-Zaballa, J., Basterretxea, K., Echanobe, J., Martínez, V., del Campo, I.
+        conference: Design and Architecture for Signal and Image Processing (Lecture Notes in Computer Science), 2022
+
+      - title: "Rapid Deployment of Domain-specific Hyperspectral Image Processors with Application to Autonomous Driving"
+        link: https://ieeexplore.ieee.org/document/10382745
+        authors: Gutiérrez-Zaballa, J., Basterretxea, K., Echanobe, J., Mata-Carballeira, O., Martínez, V.
+        conference: IEEE International Conference on Circuits and Systems (IEEE Circuits and Systems Society), 2023
+
+      - title: "HSI-Drive v2.0: More Data for New Challenges in Scene Understanding for Autonomous Driving"
+        link: https://ieeexplore.ieee.org/document/10371793
+        authors: Gutiérrez-Zaballa, J., Basterretxea, K., Echanobe, J., Martínez, V., Martínez-Corral, U.
+        conference: IEEE Symposium Series on Computational Intelligence (IEEE Computational Intelligence Society), 2023
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Habilidades y competencias
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Matlab
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Python
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: git
+        level: 80%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: C/C++
+        level: 75%
+
+      - name: VHDL
+        level: 70%
