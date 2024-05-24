@@ -4,262 +4,258 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Jon Gutiérrez Zaballa
+    tagline: PhD Candidate
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: j.gutierrez@ehu.eus
+    timezone: Europe/Madrid Timezone
+    linkedin: jon-gutiérrez-zaballa-a471671a5
+    github: jonGuti13
+    gitlab: jonGutierrez
+    website: ekoizpen-zientifikoa.ehu.eus/investigadores/130849/detalle
 
     languages:
       title: Languages
       info:
         - idiom: English
-          level: Native
-
-        - idiom: French
           level: Professional
 
         - idiom: Spanish
-          level: Professional
+          level: Native
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+        - idiom: Basque
+          level: Native
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      He obtained a dual Bachelor's degree in Physics and Electronic
+      Engineering from the University of the Basque Country (UPV-EHU)
+      in 2019 and the M.Sc. in Advanced Electronic Systems from the
+      same university in 2021. He is currently working as a PhD
+      candidate in the Engineering Physics program within the
+      Department of Electronics Technology at the University of the
+      Basque Country (UPV-EHU). His interests lie in image
+      processing, computational intelligence (data mining,
+      artificial neural networks, convolutional networks), and
+      embedded software-hardware co-design in PSoCs for advanced
+      driver assistance systems.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD candidate in Physics Engineering
+        university:  University of the Basque Country (UPV - EHU)
+        time: 2021 - Now
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          "Hyperspectral Image Processing with Application
+          to Autonomous and Semi-Autonomous Driving Systems". The
+          thesis project investigates the use of spectrometric
+          sensors to enhance and strengthen detection and
+          classification algorithms for various objects on the
+          road. The study has two main objectives: First, it
+          aims to determine to what extent the rich spectral
+          information provided by snapshot-type hyperspectral
+          cameras can improve the robustness of these systems.
+          Second, it explores whether a rapid initial
+          segmentation of images based on spectral information,
+          supported by machine learning techniques, can
+          drastically simplify the complex processing sequence
+          required for object detection. If successful, this
+          technique should enable the development of more compact
+          and efficient processors (System on a Chip, or SoC) for
+          real-time object detection in Advanced Driver Assistance
+          Systems (ADAS) and Autonomous Driving Systems (ADS).
+      - degree: MSc in Advanced Electronics Systems
+        university:  University of the Basque Country (UPV - EHU)
+        time: 2019 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          The main objective of the MSc's in Advanced Electronic
+          Systems is to equip students with the necessary skills
+          for integrating electronic devices, computers, and
+          communication technologies in the research and
+          development of innovative electronic systems with
+          multiple applications: communications, advanced control,
+          signal processing, data acquisition and measurement
+          systems, embedded vision, computational intelligence,
+          etc. The Master's Thesis project is as follows:
+           - "Study on the Applicability of Deep Networks to
+          On-Chip Multispectral Image Segmentation for Autonomous
+          Driving Systems". This project investigates the
+          potential contributions of fully convolutional networks,
+          as opposed to techniques based solely on spectral
+          information, to hyperspectral image segmentation for
+          advanced driver assistance systems. Specifically, it
+          involves working with a U-Net trained on weakly labeled
+          databases, meaning databases that do not contain all
+          labeled pixels. Additionally, since images are obtained
+          using a snapshot-type camera, particular attention is
+          paid to preprocessing these images to generate
+          hyperspectral cubes.
+      - degree: BSc in Physics and Electronics Engineering
+        university: University of the Basque Country (UPV - EHU)
+        time: 2014 - 2019
+        details: |
+          The Double BSc in Physics and Electronic Engineering
+          trains students as professionals in engineering with a
+          strong scientific component and as professionals in
+          physics with a significant technological component. It
+          provides the ability to conceive, design, and produce
+          electronic equipment and systems, utilize mathematical
+          techniques, and collaborate with professionals in
+          related technologies. Additionally, it enables the
+          acquisition of new knowledge and the application of
+          emerging technologies in the fields of electronics and
+          physics. The Bachelors's Thesis projects have focused
+          on the following aspects:
+          Los Trabajos de Fin de Grado han
+          versado sobre los siguientes aspectos:
+          - Electronic Engineering: "Implementation of a
+          neuro-fuzzy system on FPGA for characterizing driving
+          styles." This project involves modeling the driving
+          styles of various drivers using machine learning
+          techniques to personalize their response to adaptive
+          cruise control under tracking conditions.
+          Subsequently, a high-speed implementation of the
+          model is carried out on an FPGA.
+          - Physics: "Advanced Photonic Technology in
+          Automotive: Photometry and Geometric Optics for
+          Raindrop Detection on Windshields." This project
+          begins with a state-of-the-art review of current
+          applications of photonic technology in various
+          Advanced Driver Assistance Systems (ADAS) in
+          automobiles. Then, it delves into RIGSEC: a raindrop
+          validation algorithm on windshields based on their
+          optical and photometric properties. Fundamentals and
+          advanced aspects of digital image processing are
+          studied and applied to this algorithm
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Research Personnel Colaborator (Ikasiker grant)
+        time: 2018 - 2019
+        company: University of the Basque Country (UPV-EHU)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          The collaboration focused on analyzing the effectiveness of
+          applying various machine learning techniques in the development
+          of advanced driver assistance systems and their suitability for
+          designing high-speed digital systems, particularly adaptive cruise
+          control. This collaboration led to participation in the article
+          "An FPGA-Based Neuro-Fuzzy Sensor for Personalized Driving
+          Assistance."
+      - role: Research Personnel
+        time: 2020 - 2021
+        company: University of the Basque Country (UPV-EHU)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          The tasks performed encompassed the measurement, analysis, and
+          interpretation of data related to car comfort within the project
+          "Technological Preparation for Multivehicular Automation in the
+          Industrial Sector (AUTOLIB)." This collaboration resulted in the
+          publication of the article "Analysis of Motion Sickness and the
+          Lack of Comfort in Car Passengers."
+      - role: Laboratory Practice Instructor
+        time: 2023 - 2024
+        company: University of the Basque Country (UPV-EHU)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+          During the 2022/2023 and 2023/2024 academic years, he taught the
+          laboratory sessions for the third-year course "Digital Electronic
+          Systems," which is part of the Bachelor's Degree in Industrial and
+          Automatic Electronic Engineering, alongside Professor Pablo Fernández
+          Rodríguez.
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
+        - name: Specialization in Machine Learning
           start: 2020
           end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+          organization: Data Analysis, Cibersecurity and Cloud Computing Group
+            (Electronics and Computer Science Department), Mondragon University
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            The course includes topics such as data preprocessing, unsupervised,
+            semi-supervised, and supervised learning, as well as techniques for
+            model selection and validation.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here is a list of projects I have collaborated on with the University of
+      the Basque Country (UPV-EHU):
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: "Technological Preparation for Multivehicular Automation in the Industrial Sector (AUTOLIB)"
+        tagline: Elkartek KK-2019/00035
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: "Multispectral Image Recognition System for Real-Time Analysis of Traffic Scenarios"
+        tagline: Minecor PID2020‐115375RB‐I00
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: "Digital Electronics Design Group, GDED"
+        tagline: UPV-EHU Research Groups
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: "Silicon Burmuin: Multidisciplinary Research in Disruptive Neuromorphic Technologies"
+        tagline: Elkartek KK-2023/00090
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Here is the list of publications resulting from my participation in the
+      projects listed in the previous section:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "An FPGA-Based Neuro-Fuzzy Sensor for Personalized Driving Assistance"
+        link: https://www.mdpi.com/1424-8220/19/18/4011
+        authors: Mata-Carballeira, O., Gutiérrez-Zaballa, J., del Campo, I., Martínez, V.
+        conference: Sensors (MDPI), 2019
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Analysis of the Motion Sickness and the Lack of Comfort in Car Passengers"
+        link: https://www.mdpi.com/2076-3417/12/8/3717
+        authors: Asua, E., Gutiérrez-Zaballa, J., Mata-Carballeira, O., Ruiz, J.A., del Campo, I.
+        conference: Applied Sciences (MDPI), 2022
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "On-chip Hyperspectral Image Segmentation with Fully Convolutional Networks for Scene Understanding in Autonomous Driving"
+        link: https://www.sciencedirect.com/science/article/pii/S1383762123000577
+        authors: Gutiérrez-Zaballa, J., Basterretxea, K., Echanobe, J., Martínez, V., Martinez-Corral, U., Mata-Carballeira, O., del Campo, I.
+        conference: Journal of Systems Architecture (Elsevier), 2023
+
+      - title: "HSI-Drive: A Dataset for the Research of Hyperspectral Image Processing Applied to Autonomous Driving Systems"
+        link: https://ieeexplore.ieee.org/document/9575298
+        authors: Basterretxea, K., Echanobe, J., Martínez, V., Gutiérrez-Zaballa, J., del Campo, I.
+        conference: IEEE Intelligent Vehicles Symposium (IEEE Intelligent Transportation Systems Society), 2021
+
+      - title: "Exploring Fully Convolutional Networks for the Segmentation of Hyperspectral Imaging Applied to Advanced Driver Assistance Systems"
+        link: https://link.springer.com/chapter/10.1007/978-3-031-12748-9_11
+        authors: Gutiérrez-Zaballa, J., Basterretxea, K., Echanobe, J., Martínez, V., del Campo, I.
+        conference: Design and Architecture for Signal and Image Processing (Lecture Notes in Computer Science), 2022
+
+      - title: "Rapid Deployment of Domain-specific Hyperspectral Image Processors with Application to Autonomous Driving"
+        link: https://ieeexplore.ieee.org/document/10382745
+        authors: Gutiérrez-Zaballa, J., Basterretxea, K., Echanobe, J., Mata-Carballeira, O., Martínez, V.
+        conference: IEEE International Conference on Circuits and Systems (IEEE Circuits and Systems Society), 2023
+
+      - title: "HSI-Drive v2.0: More Data for New Challenges in Scene Understanding for Autonomous Driving"
+        link: https://ieeexplore.ieee.org/document/10371793
+        authors: Gutiérrez-Zaballa, J., Basterretxea, K., Echanobe, J., Martínez, V., Martínez-Corral, U.
+        conference: IEEE Symposium Series on Computational Intelligence (IEEE Computational Intelligence Society), 2023
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Matlab
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Python
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: git
+        level: 80%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: C/C++
+        level: 75%
+
+      - name: VHDL
+        level: 70%
